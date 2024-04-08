@@ -72,5 +72,5 @@ function allWagesFor(employee){
 function calculatePayroll(employees){
     return employees.reduce((totalPayroll, employee) => {
         return totalPayroll + allWagesFor(employee)
-    }, )
+    }, 0)
 }
